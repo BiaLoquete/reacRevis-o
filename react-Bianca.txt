@@ -1,0 +1,36 @@
+REACT: (WebStorm)
+
+- framework JS
+- objetivo de otimizar as interações do front-end
+- reutilização de código
+- o NODE JS converte o JS em máquina
+- NPM: gerenciador de pacotes (códigos desenvolvidos por outras pessoas), baixar bibliotecas;
+- NPX: baixar um pacote e executar o mesmo
+- JSX: html do react, declarar tags
+
+
+COMPONENTES DO REACT:
+- o react é orientado a componentes (pastas)
+- regras:
+  o título tem que ter  primeira letra maiúscula (PrimeiroComponente.jsx);
+  criar uma função com o mesmo nome do arquivo;
+  só pode possuir um único pai (tudo dentro de uma div, máquina);
+  o class vira CLASSNAME;
+  css inline -> tem que passar um objeto onde a chave é a propriedade (é o props, recebemos dentro do componente, dentro da função);
+  sempre uma função, dentro tem que ter um return, uma div, e por fim um export default.
+
+
+* reportwebvitals.js -> ficar analisando a performance do site (ex: demora para carregar)
+* index.JS -> inicializar o projeto, o primeiro arquivo a ser lido
+* package.json -> armazena a lista de dependências que o projeto necessita
+* node_modules -> salva as bibliotecas que instalarmos no nosso sistema !!!ESSE NÃO SOBE PARA O GITHUB!!!
+* public -> todos os arquivos públicos, que os usuários irão ver. Ex: imagens, css
+* src -> todos os arquivos de programação
+* app.js -> é onde nós mexemos, puxamos tudo dos outros arquivos, é ali que formamos nosso site. É como se fosse o index do nosso react.
+* o que está dentro do return é JSX
+* como recebemos quando passamos dentro do componente? -> ele vira children
+
+
+
+
+  
